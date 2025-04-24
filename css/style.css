@@ -25,10 +25,41 @@ ul{
     background-color: rgb(69,171,233);
     border-color: transparent;
 }
+.lightviolet{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(155,114,229);
+    border-color: transparent;
+}
+.teal{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(99,192,169);
+    border-color: transparent;
+}
+.orange{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(242,157,51);
+    border-color: transparent;
+}
+.pink{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color:rgb(216,99,160);
+    border-color: transparent;
+}
+.green{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(176,201,37);
+    border-color: transparent;
+}
 
 .under-list{
     list-style-position: inside;
     padding-inline-start: 0;
+    padding: 10px 0px;
 }
 .button-radius{
     border-radius: 5px;
@@ -46,7 +77,9 @@ ul{
 }
 /* General */
 body{
-    background-color: rgb(247,248,249)
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247,248,249);
+    font-size: 1.2em;
 }
 
 .box-header{
@@ -71,4 +104,9 @@ h1{
 }
 hr{
     color: rgb(247,248,249);
+}
+
+span{
+    margin-left: 5px;
+    color: white;
 }

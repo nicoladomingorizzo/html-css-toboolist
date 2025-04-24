@@ -13,10 +13,27 @@
     border-radius: 5px;
 }
 .span-check{
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
 
 }
 .span-cross{
-
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
 }
 /* Lists */
 .lists{

@@ -1,0 +1,74 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Utilities */
+ul{
+    margin: 10px 30px;
+    list-style: none;
+   
+}
+
+.container{
+    max-width: 720px;
+    background-color: white;
+    height: 100%;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.lightblue{
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgb(69,171,233);
+    border-color: transparent;
+}
+
+.under-list{
+    list-style-position: inside;
+    padding-inline-start: 0;
+}
+.button-radius{
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.white-button{
+    background-color: white;
+    color: rgb(169, 172, 174);
+    padding: 5px 15px;
+    border-color: lightgray;
+}
+.button-lane{
+    margin: 10px 30px;
+}
+/* General */
+body{
+    background-color: rgb(247,248,249)
+}
+
+.box-header{
+    height: 100px;
+    background-color: white;
+}
+header{
+    height: 100px;
+
+}
+.logo{
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+h1{
+    line-height: 100px;
+    display: inline-block;
+    font-size: 50px;
+}
+hr{
+    color: rgb(247,248,249);
+}

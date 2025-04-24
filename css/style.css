@@ -5,20 +5,34 @@
     box-sizing: border-box;
 }
 /* Utilities */
+.container{
+    max-width: 720px;
+    background-color: white;
+    height: 100%;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.span-check{
+
+}
+.span-cross{
+
+}
+/* Lists */
+.lists{
+    border-top: 2px solid rgb(247,248,249);
+}
 ul{
     margin: 10px 30px;
     list-style: none;
    
 }
-
-.container{
-    max-width: 720px;
-    background-color: white;
-    height: 100%;
-    margin: 100px auto;
-    border-radius: 5px;
+.under-list{
+    list-style-position: inside;
+    padding-inline-start: 0;
+    padding: 10px 0px;
 }
-
+/*  Color lists */
 .lightblue{
     border-radius: 10px;
     padding: 5px 15px;
@@ -56,11 +70,8 @@ ul{
     border-color: transparent;
 }
 
-.under-list{
-    list-style-position: inside;
-    padding-inline-start: 0;
-    padding: 10px 0px;
-}
+/* Buttons */
+
 .button-radius{
     border-radius: 5px;
     margin-top: 10px;
@@ -101,9 +112,6 @@ h1{
     line-height: 100px;
     display: inline-block;
     font-size: 50px;
-}
-hr{
-    color: rgb(247,248,249);
 }
 
 span{

@@ -15,6 +15,10 @@
   border-radius: 5px;
 }
 
+.white-color{
+  color: white;
+}
+
 /* Lists */
 
 .span-check {
@@ -56,37 +60,37 @@ ul {
 /*  Color lists */
 
 .lightblue {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(69, 171, 233);
   border-color: transparent;
 }
 .lightviolet {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(155, 114, 229);
   border-color: transparent;
 }
 .teal {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(99, 192, 169);
   border-color: transparent;
 }
 .orange {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(242, 157, 51);
   border-color: transparent;
 }
 .pink {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(216, 99, 160);
   border-color: transparent;
 }
 .green {
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 5px 15px;
   background-color: rgb(176, 201, 37);
   border-color: transparent;
@@ -139,4 +143,8 @@ h1 {
 span {
   margin-left: 5px;
   color: white;
+}
+
+.text-small{
+  font-size: 0.7em;
 }
